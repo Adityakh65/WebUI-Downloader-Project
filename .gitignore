@@ -1,0 +1,29 @@
+# User/account data
+data/*
+!data/.gitkeep
+
+# Download/process state
+*.pid
+*.log
+*.state
+*.size
+*.name
+
+# Environment/configuration
+.env
+.env.*
+config.local.php
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Downloaded files
+*.iso
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz

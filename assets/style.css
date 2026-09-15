@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: #eee;
+    padding: 30px;
+}
+
+.box {
+    max-width: 950px;
+    margin: auto;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+}
+
+select {
+    background: #111;
+    color: #eee;
+    border: 1px solid #333;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tabs {
+    margin-top: 20px;
+}
+
+.tab-btn {
+    padding: 10px 15px;
+    background: #222;
+    border: none;
+    color: #eee;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.tab-btn.active {
+    background: #444;
+}
+
+.card {
+    background: #181818;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.filename {
+    font-weight: bold;
+    margin-bottom: 8px;
+    word-break: break-all;
+}
+
+.status {
+    font-family: monospace;
+    color: #8fd3ff;
+}
+
+.controls button {
+    width: auto;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+.pause {
+    background: #f1c40f;
+    color: #000;
+}
+
+.resume {
+    background: #2ecc71;
+    color: #000;
+}
+
+.cancel {
+    background: #e74c3c;
+    color: #fff;
+}
+
+.redownload {
+    background: #5dade2;
+    color: #000;
+}
+
+.badge {
+    float: right;
+    background: #f1c40f;
+    color: #000;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.finished {
+    float: right;
+    background: #2ecc71;
+    color: #000;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.table th,
+.table td {
+    border-bottom: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
+
+.empty {
+    opacity: 0.7;
+    margin-top: 15px;
+}
+
+.progress-wrap {
+    width: 100%;
+    background: #111;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 8px;
+    height: 10px;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.6);
+}
+
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #2ecc71, #3498db);
+    width: 0%;
+    transition: width 0.4s ease;
+}
+.progress-text {
+    margin-top: 6px;
+    font-size: 13px;
+    color: #9fd3ff;
+    font-family: monospace;
+}
+
+
+/* Thicc progress bar */
+.progress-wrap.big {
+    height: 16px;
+    background: #111;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #3fa9f5, #00ffd5);
+    transition: width 0.5s ease;
+}
+
+/* Bigger stats text */
+.progress-text.big-text {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #b8e7ff;
+}
+
+/* Speed line */
+.speed-text {
+    margin-top: 4px;
+    font-size: 14px;
+    color: #9faec0;
+    font-family: monospace;
+}
